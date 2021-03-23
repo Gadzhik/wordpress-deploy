@@ -6,7 +6,7 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: Defender23
+      MYSQL_ROOT_PASSWORD: Ypswd
       MYSQL_DATABASE: wordpress
     volumes:
       - "./db:/var/lib/mysql"
@@ -18,7 +18,7 @@ services:
     environment:
       WORDPRESS_DB_HOST: mysql
       WORDPRESS_DB_USER: root
-      WORDPRESS_DB_PASSWORD: Defender23
+      WORDPRESS_DB_PASSWORD: Ypsw
       WORDPRESS_DB_NAME: wordpress
     volumes:
       - "./wp:/var/www/html/"
@@ -29,7 +29,7 @@ services:
     environment:
       WORDPRESS_DB_HOST: mysql
       WORDPRESS_DB_USER: root
-      WORDPRESS_DB_PASSWORD: Defender23
+      WORDPRESS_DB_PASSWORD: Ypwd
       WORDPRESS_DB_NAME: wordpress
     volumes:
       - "./wp:/var/www/html/"
